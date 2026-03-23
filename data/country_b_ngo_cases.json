@@ -1,0 +1,16 @@
+[
+  {
+    "id": "B1",
+    "country": "Burkina Faso",
+    "age_years": 15,
+    "condition": "LF",
+    "tx_date": "2025-01-12"
+  },
+  {
+    "id": "B2",
+    "country": "Burkina Faso",
+    "age_years": 32,
+    "condition": "Oncho",
+    "tx_date": "2025-02-18"
+  }
+]
