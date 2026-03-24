@@ -1,0 +1,228 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "A1",
+        "extension": [
+          {
+            "url": "http://example.org/fhir/StructureDefinition/patient-country",
+            "valueString": "India"
+          }
+        ],
+        "extension_age": 10
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "A1",
+        "subject": {
+          "reference": "Patient/A1"
+        },
+        "period": {
+          "start": "2025-02-10"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "A1",
+        "subject": {
+          "reference": "Patient/A1"
+        },
+        "code": {
+          "text": "Onchocerciasis"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "A2",
+        "extension": [
+          {
+            "url": "http://example.org/fhir/StructureDefinition/patient-country",
+            "valueString": "India"
+          }
+        ],
+        "extension_age": 22
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "A2",
+        "subject": {
+          "reference": "Patient/A2"
+        },
+        "period": {
+          "start": "2025-03-05"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "A2",
+        "subject": {
+          "reference": "Patient/A2"
+        },
+        "code": {
+          "text": "Schistosomiasis"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "B1",
+        "extension": [
+          {
+            "url": "http://example.org/fhir/StructureDefinition/patient-country",
+            "valueString": "Vietnam"
+          }
+        ],
+        "extension_age": 15
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "B1",
+        "subject": {
+          "reference": "Patient/B1"
+        },
+        "period": {
+          "start": "2025-01-12"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "B1",
+        "subject": {
+          "reference": "Patient/B1"
+        },
+        "code": {
+          "text": "LF"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "B2",
+        "extension": [
+          {
+            "url": "http://example.org/fhir/StructureDefinition/patient-country",
+            "valueString": "Vietnam"
+          }
+        ],
+        "extension_age": 32
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "B2",
+        "subject": {
+          "reference": "Patient/B2"
+        },
+        "period": {
+          "start": "2025-02-18"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "B2",
+        "subject": {
+          "reference": "Patient/B2"
+        },
+        "code": {
+          "text": "Oncho"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "C1",
+        "extension": [
+          {
+            "url": "http://example.org/fhir/StructureDefinition/patient-country",
+            "valueString": "Sri Lanka"
+          }
+        ],
+        "extension_age": 27
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "C1",
+        "subject": {
+          "reference": "Patient/C1"
+        },
+        "period": {
+          "start": "2025-03-22"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "C1",
+        "subject": {
+          "reference": "Patient/C1"
+        },
+        "code": {
+          "text": "Onchocerciasis"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "C2",
+        "extension": [
+          {
+            "url": "http://example.org/fhir/StructureDefinition/patient-country",
+            "valueString": "Sri Lanka"
+          }
+        ],
+        "extension_age": 8
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "C2",
+        "subject": {
+          "reference": "Patient/C2"
+        },
+        "period": {
+          "start": "2025-04-01"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "C2",
+        "subject": {
+          "reference": "Patient/C2"
+        },
+        "code": {
+          "text": "LF"
+        }
+      }
+    }
+  ]
+}
